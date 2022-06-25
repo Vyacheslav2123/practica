@@ -22,7 +22,6 @@ li {
 }
 a {
     text-decoration: none;
-    
 }
 .header {
     width: 100%;
@@ -80,6 +79,18 @@ a {
 }
 .header__nav > li:hover {
     border-bottom: solid 2px #44B7E1;
+}
+.fone {
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fone > img {
+    width: 90%;
+    margin-top: 20px;
 }
 .services {
     width: 100%;
@@ -152,6 +163,9 @@ a {
     gap: 10px;
     flex-wrap: wrap;
 }
+.contact_title {
+    text-align: center;
+}
 .contact__link {
     color: #666666;
     margin-right: 40px;
@@ -188,6 +202,9 @@ a {
     }
 }
 @media screen and (max-width: 1060px) {
+    .fone > img {
+        width: 100%;
+    }
     .services__container {
         width: 100%;
         justify-content: center;
@@ -200,6 +217,7 @@ a {
     }
 }
 @media screen and (max-width: 940px) {
+
     .hamburger-menu {
         display: block;
     }    
@@ -335,5 +353,8 @@ a {
     }
     .footer__nav {
         width: 95%;
+    }
+    .fone > img {
+        width: 75%;
     }
 }
