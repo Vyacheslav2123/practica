@@ -427,6 +427,9 @@ a {
         width: 95%;
         justify-content: center;
     }
+    .subcontainer-img {
+        width: 90%;
+    }
 }
 @media screen and (max-width: 540px) {
     .footer {
