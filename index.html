@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Практика</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="./index.html"><div class="logo"></div></a>
+            <nav class="header__nav">
+                <li><a href="#" class="header__nav-link">Главная</a></li>
+                <li><a href="#" class="header__nav-link">Решения</a></li>
+                <li><a href="#" class="header__nav-link">О компании</a></li>
+                <li><a href="#" class="header__nav-link">Контакты</a></li>
+                <li><a href="#" class="header__nav-link">Обратная связь</a></li>
+            </nav>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">Главная</a></li>
+                  <li><a class="menu__item" href="#catalog">Решения</a></li>
+                  <li><a class="menu__item" href="#benefits">О компании</a></li>
+                  <li><a class="menu__item" href="#professional">Контакты</a></li>
+                  <li><a class="menu__item" href="#request">Обратная связь</a></li>
+                </ul>
+              </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="services">
+            <h1 class="services__title">
+                Услуги
+            </h1>
+            <div class="services__container">
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Процессией офис</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Web-конструктор</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Модельный бюджет</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Перечни услуг и работ</h1>
+                </div></a>
+            </div>
+            <div class="services__container">
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Управление проектами</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Финансовый контроль закупок</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Инициативный гражданин</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Бухгалтерский и управленческий учёт</h1>
+                </div></a>
+            </div>
+            <div class="services__container">
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Учёт соглашений</h1>
+                </div></a>
+                <a href=""><div class="services__inner">
+                    <h1 class="services__inner-title">Аналитический центр руководителя</h1>
+                </div></a>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__inner">
+                <h1 class="contact_title">контактный центр</h1>
+                <h1 class="contact_title">8 800 200 20 73</h1>
+                <p class="contact__text">звонок бесплатный</p>
+            </div>
+            <div class="contact__inner">
+                <div class="contact__company">
+                    <a href="" class="contact__link">О компании</a>
+                    <a href="" class="contact__link">Контакты</a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__company">
+                <p class="footer__company-text">© Copyright - ООО НПО Криста 2019</p>
+            </div>
+            <nav class="footer__nav">
+                <li><a href="#" class="footer__nav-link">Главная</a></li>
+                <li><a href="#" class="footer__nav-link">Решения</a></li>
+                <li><a href="#" class="footer__nav-link">О компании</a></li>
+                <li><a href="#" class="footer__nav-link">Контакты</a></li>
+                <li><a href="#" class="footer__nav-link">Обратная связь</a></li>
+            </nav>
+        </footer>
+    </div>
+<script>
+    const check = document.querySelector('.main');
+    check.addEventListener('click', event => {
+        menu__toggle.checked = false;
+    });
+</script>
+</body>
+</html>
